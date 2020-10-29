@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish);
+
+body {
+    font-family: "Mulish";
+    background-color: #fffdd0;
+    color: #0a4158;
+}
+
+#parkloc {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* max-width: 600px; */
+    /* margin: 10px; */
+    /* padding: 30px; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);		 */
+}
+
+#parkloc div {
+    /* background: #3bbced; */
+    padding: 15px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.free {
+    background: rgb(94, 161, 94);
+    transition: 0.2s;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.occupied {
+    background: rgb(218, 90, 90);
+    transition: 0.2s;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.container-custom {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* NAVBAR */
+.parking-space nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parking-space nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.parking-space nav li {
+    padding: 15px;
+}
+
+.parking-space nav a {
+    color: #0a4158;
+    text-decoration: none;
+}
+
+.parking-space nav a:hover {
+    color: #4b8378;
+}
+
+.parking-space nav .logo a:hover {
+    color: #0a4158;
+}
+
+h1.logo {
+    font-size: 2rem;
+    font-weight: 800;
+}

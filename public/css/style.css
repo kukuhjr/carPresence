@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish);
+
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffdd0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Mulish";
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.showcase {
+    background-color: #fffdd0;
+    color: #0a4158;
+    height: 600px;
+}
+
+.showcase nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.469em 0;
+}
+
+.showcase nav h1.logo {
+    font-size: 2rem;
+}
+
+.showcase nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.showcase nav li {
+    padding: 15px;
+}
+
+.showcase nav a {
+    color: #0a4158;
+}
+
+.showcase nav a:hover {
+    color: #4b8378;
+}
+
+.showcase-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 2rem;
+}
+
+.showcase-content img {
+    width: 65%;
+}
+
+.showcase-content h1 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.showcase-content p {
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.m-4 {
+    margin: 4rem;
+}
+
+.my-4 {
+    margin: 4rem 0;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.py-4 {
+    padding: 4rem 0;
+}
+
+.m-5 {
+    margin: 5rem;
+}
+
+.my-5 {
+    margin: 5rem 0;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+.py-5 {
+    padding: 5rem 0;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    transition: transform 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    transform: scale(0.96);
+}
+
+.btn-primary {
+    border: 1px solid #0a4158;
+    color: #0a4158;
+}
+
+.btn-secondary {
+    background-color: #4b8378;
+    border: 1px solid #4b8378;
+    color: #fffdd0;
+}
+
+@media (max-width: 800px) {
+    .showcase {
+        height: 400px;
+    }
+    .showcase-content {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .showcase-content img {
+        width: 100%;
+        margin-bottom: 1.4em;
+    }
+    .showcase-content h1 {
+        font-size: 2.4rem;
+    }
+    .showcase-content p {
+        font-size: 1rem;
+        margin-bottom: 1.8em;
+    }
+    .showcase nav {
+        padding: 0.8rem 0;
+    }
+    .showcase nav ul {
+        display: none;
+    }
+}
