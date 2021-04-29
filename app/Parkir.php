@@ -8,7 +8,15 @@ class Parkir extends Model
 {
     protected $table = 'parkirs';
 
-    // public $primary_key = 'table_id';
+    // protected $primaryKey = 'table_id';
 
     public $timestamps = true;
+
+    /**
+     * Get the logs for parking space.
+     */
+    public function logs()
+    {
+        return $this->hasMany(LogParkir::class, 'id_parkir', 'sensor_name');
+    }
 }

@@ -35,7 +35,7 @@ a {
 }
 
 .showcase nav h1.logo {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .showcase nav ul {
@@ -66,6 +66,12 @@ a {
 
 .showcase-content img {
     width: 65%;
+}
+
+@-moz-document url-prefix() {
+    .showcase-content img {
+        width: 270%;
+    }
 }
 
 .showcase-content h1 {

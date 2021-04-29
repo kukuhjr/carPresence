@@ -14,9 +14,8 @@
         <nav>
           <h1 class="logo">Car Presence</h1>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+            {{-- <li><a href="#">Beranda</a></li> --}}
+            <li><a href="{{env('APP_URL')}}/parkir">Parkir</a></li>
           </ul>
         </nav>
 
@@ -29,8 +28,8 @@
               ratione repellat totam numquam sit facilis quos similique nulla
               maxime quaerat ipsum tempore voluptas?
             </p>
-            <a href="#" class="btn-primary">Learn More</a>
-            <a href="{{ env('APP_URL') }}/parkir" class="btn-secondary">Parking Space</a>
+            <a href="#" class="btn-primary">Apa itu CarPresence ?</a>
+            <a href="{{ env('APP_URL') }}/parkir" class="btn-secondary">Ruang Parkir</a>
           </div>
           <img src="img/3795-edited.png" alt="Car Parking" />
         </div>

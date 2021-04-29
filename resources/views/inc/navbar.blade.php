@@ -28,8 +28,11 @@
   <nav>
     <h1 class="logo"><a href="{{env('APP_URL')}}">Car Presence</a></h1>
     <ul>
-      <li><a href="{{env('APP_URL')}}">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="{{env('APP_URL')}}">Beranda</a></li>
+      @if (Request::segment(1) == 'parkir')
+        <li><a href="{{env('APP_URL')}}/logParkir">Log Parkir</a></li>
+      @elseif(Request::segment(1) == 'logParkir')
+        <li><a href="{{env('APP_URL')}}/parkir">Parkir</a></li>
+      @endif
     </ul>
   </nav>

@@ -45,7 +45,7 @@ class UpdateController extends Controller
             $parkir->save();
         }
 
-        echo "<script> alert('Anda berhasil dengan status pada sensor); </script>";
+        echo "<script> alert('Anda berhasil dengan status pada sensor'); </script>";
     }
 
     /**

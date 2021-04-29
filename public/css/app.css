@@ -6,10 +6,12 @@ body {
     color: #0a4158;
 }
 
+/* TEMPAT PARKIR NYA */
+
 #parkloc {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* max-width: 600px; */
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 600px;
     /* margin: 10px; */
     /* padding: 30px; */
     /* border-radius: 5px; */
@@ -17,23 +19,59 @@ body {
 }
 
 #parkloc div {
-    /* background: #3bbced; */
     padding: 15px;
+    /* border: 1px solid black; */
+}
+
+#parkloc .tempat-parkir {
     margin: 2px;
     border-radius: 10px;
 }
 
-.free {
+/* STATUS TEMPAT PARKIR */
+
+.kosong {
     background: rgb(94, 161, 94);
+    color: #fff;
     transition: 0.2s;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-.occupied {
+.penuh {
     background: rgb(218, 90, 90);
+    color: #fff;
     transition: 0.2s;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
+
+.warning {
+    background: rgb(255, 208, 0);
+    color: black;
+    transition: 0.2s;
+}
+
+/* BORDER TEMPAT PARKIR */
+.border-parkir.atas {
+    border-top: 1px solid black;
+}
+
+.border-parkir.bawah {
+    border-bottom: 1px solid black;
+}
+
+.border-parkir.kanan {
+    border-right: 1px solid black;
+}
+
+.border-parkir.kiri {
+    border-left: 1px solid black;
+}
+
+.border-parkir.all {
+    border: 1px solid black;
+}
+
+/* CONTAINER CONTENT DASHBOARD PARKIR */
 
 .container-custom {
     max-width: 1200px;
@@ -42,7 +80,7 @@ body {
     overflow: auto;
 }
 
-/* NAVBAR */
+/* NAVBAR TEMPAT PARKIR */
 .parking-space nav {
     display: flex;
     align-items: center;
@@ -72,6 +110,50 @@ body {
 }
 
 h1.logo {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 800;
+}
+
+/* LEGENDA PARKIR */
+.isi-legenda {
+    display: flex;
+    margin-left: 1em;
+}
+
+.isi-legenda + .isi-legenda {
+    margin-top: 1em;
+}
+
+.isi-legenda:last-child {
+    margin-bottom: 1em;
+}
+
+.isi-legenda div + div {
+    margin-left: 0.6em;
+}
+
+.legenda-kosong {
+    height: 24px;
+    width: 32px;
+    border-radius: 4px;
+    background: rgb(94, 161, 94);
+}
+
+.legenda-terisi {
+    height: 24px;
+    width: 32px;
+    border-radius: 4px;
+    background: rgb(218, 90, 90);
+}
+
+.legenda-warning {
+    height: 24px;
+    width: 32px;
+    border-radius: 4px;
+    background: rgb(255, 208, 0);
+}
+
+.legenda-text {
+    height: 24px;
+    width: 32px;
 }
