@@ -1,6 +1,7 @@
 # CarPresence
 
 Aplikasi yang menampilkan denah parkir dengan statusnya (kosong / terisi).
+
 Kondisi: Perangkat keras dengan Komputer terhubung pada satu router yang sama.
 
 ## Builds
@@ -19,7 +20,7 @@ Kondisi: Perangkat keras dengan Komputer terhubung pada satu router yang sama.
 
 -   Pasang Arduino dengan Ethernet Shield, kemudian sambung dengan kabel LAN
 
--   Pasang Ultrasonic Sensord dengan konfigurasi trigpin dan echopin berikut:
+-   Pasang Ultrasonic Sensor dengan konfigurasi trigpin dan echopin berikut:
 
 ```
     // Sensor 1 (Digital)
