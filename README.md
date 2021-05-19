@@ -10,7 +10,7 @@ Kondisi: Perangkat keras dengan Komputer terhubung pada satu router yang sama.
 -   Apache Server
 -   Mysql DB
 
-## Perangkat keras
+## Hardware
 
 -   Arduino
 -   Ultrasonic Sensor
