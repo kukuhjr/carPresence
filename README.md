@@ -16,12 +16,12 @@ Kondisi: Perangkat keras dengan Komputer terhubung pada satu router yang sama.
 -   Ultrasonic Sensor
 -   Ethernet Shield
 
-## Before You Run
+## Before You Run, Run Command ini
 
-- composer install, composer update (karna udah usang biasanya)
-- npm install, npm audit fix (optional)
-- add .env file
-- import car_presence.sql yang bisa didownload diatas
+- 'composer install', 'composer update' (karna udah usang biasanya)
+- 'npm install', 'npm audit fix' (optional)
+- add '.env' file
+- import 'car_presence.sql' yang bisa didownload diatas
 
 ## Arduino, Hardware Setup
 
