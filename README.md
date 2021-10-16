@@ -52,3 +52,6 @@ Kondisi: Perangkat keras dengan Komputer terhubung pada satu router yang sama.
 
 -   Berubah menjadi berwarna merah jika sensor mendeteksi < 10 cm dan hijau jika sebaliknya
 -   Berubah menjadi berwarna kuning jika kabel terputus
+
+## Test Update Status Sensor, Manual Request (via PostMan)
+![image](https://user-images.githubusercontent.com/39442253/137578823-b25f524e-1778-49e2-b2a5-147154bee134.png)
